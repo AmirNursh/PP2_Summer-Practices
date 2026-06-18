@@ -1,0 +1,26 @@
+# The Else Keyword
+# The else keyword catches anything which isn't caught by the preceding conditions.
+
+# The else statement is executed when the if condition (and any elif conditions) evaluate to False.
+
+# Example
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+
+# Else Without Elif
+# You can also have an else without the elif:
+
+# Example
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
